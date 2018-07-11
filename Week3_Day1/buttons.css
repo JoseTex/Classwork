@@ -1,0 +1,39 @@
+button {
+    background-color: beige;
+    height: 140px;
+    width: 140px;
+}
+
+button:hover {
+    background-color: chocolate
+}
+
+button:active {
+    background-color: aqua
+}
+
+button:focus {
+    background-color: yellow
+}
+
+a {
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+
+a {
+    background-color: pink;
+}
+
+a:hover { 
+    background-color: cornflowerblue;
+    font-size: 80px;
+}
+
+a:visited {
+    font-size: 20px;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
