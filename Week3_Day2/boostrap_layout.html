@@ -1,0 +1,88 @@
+<!-- Bootstrap Grid Demo -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Bootstrap Demo</title>
+
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>              
+
+              <div class="container">          
+                  <header> <strong> About Me </strong>  </header>
+
+                  <div class="row">
+                        <div class="col-md-8">
+                                <div class="col-md-6">
+                            <img src="data:image/jpeg;base64,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"> 
+                            </div>
+                            <div class="col-md-6">
+                                    <p>Cream milk, aromatic, seasonal black qui grounds pumpkin spice. Café au lait id variety siphon mocha extraction iced saucer kopi-luwak. Chicory bar sweet crema chicory extra pumpkin spice.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                    <div class="col-md-6">
+                                    <div class="card" style="width: 18rem;">
+                                            <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                                            <div class="card-body">
+                                              <h5 class="card-title">Card title</h5>
+                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                                            </div>
+                                            </div>
+                                          </div>
+                                </div>
+
+                </div>
+
+
+
+
+
+                  </div>
+
+
+</body>
+</html>
